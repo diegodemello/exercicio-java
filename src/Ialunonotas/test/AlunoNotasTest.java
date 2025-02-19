@@ -11,7 +11,7 @@ public class AlunoNotasTest {
         Aluno aluno = new Aluno();
 
         System.out.print("Digite o seu nome: ");
-        aluno.setNome(scanner.next());
+        aluno.setNome(scanner.nextLine());
         System.out.print("Digite a sua idade: ");
         aluno.setIdade(scanner2.nextInt());
 
